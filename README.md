@@ -1,6 +1,6 @@
 # DRBlocks <img src="http://i.imgur.com/qloLGM8.png" alt="DRBlocks" title="DRBlocks">
 
-Convenient way to work with multiple blocks in Objective-C.  DRBlocks is a Key-ValueArray store for blocks.  Adding multiple blocks for the same key will append them to the same key's ValueArray.  This could be useful if you need to store multiple completions blocks while an asyncronous event is waiting to finish, and then calling each of the those blocks when the event finishes.
+Convenient way to work with multiple blocks in Objective-C.  DRBlocks is a Key-ValueArray store for blocks.  Adding multiple blocks for the same key will append them to the same key's ValueArray.  This could be useful if you need to store multiple completion blocks while an asyncronous event is finishing, and then calling each of the those blocks when the event finishes.
 
 ## Using DRBlocks in your App
 
@@ -49,10 +49,12 @@ I have used this design pattern enough times that I decided it was time to creat
 
 ## Installation with CocoaPods
 
+_Not yet submitted to Cocoapods. Use the direct git URL_
+
 [CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C.  See the ["Getting Started" guide for more information](https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking).
 
 ```ruby
-pod "DRBlocks", "~> 0.0.1"
+pod "DRBlocks", :git => 'git@github.com:objectiveSee/DRBlocks.git', :commit => '851ff77b2f067c18d45d93eddd18ee8239f5d632'
 ```
 
 If you don't use CocoaPods, reconsider using them or add DRBlocks.h and DRBlocks.m to your project.
