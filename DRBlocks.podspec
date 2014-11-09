@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'DRBlocks'
-  s.version  = '0.0.1'
+  s.version  = '1.0.0'
   s.platform = :ios
   s.ios.deployment_target = '5.0'
   s.license  = 'MIT'
