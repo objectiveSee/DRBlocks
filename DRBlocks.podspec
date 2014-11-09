@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/objectiveSee/DRBlocks'
   s.author   = { "Danny Ricciotti" => "dan.ricciotti@gmail.com" }
 
-  s.source   = { :git => 'https://github.com/objectiveSee/DRBlocks.git', :commit => "44a9fac4b494c8a439eaf0547486a2da941447d4"}
+  s.source   = { :git => 'https://github.com/objectiveSee/DRBlocks.git', :tag => "v1.0"}
   s.source_files = 'DRBlocks/DRBlocks.*'
 
   s.requires_arc = true
