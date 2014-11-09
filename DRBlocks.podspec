@@ -7,9 +7,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Manage multiple Objective-C blocks easier.'
   s.homepage = 'https://github.com/objectiveSee/DRBlocks'
   s.author   = { "Danny Ricciotti" => "dan.ricciotti@gmail.com" }
-
-  s.source   = { :git => 'https://github.com/objectiveSee/DRBlocks.git', :tag => "v1.0"}
+  s.source   = {:git => "https://github.com/objectiveSee/DRBlocks.git", :tag => "v1.0"}
   s.source_files = 'DRBlocks/DRBlocks.*'
-
   s.requires_arc = true
 end
